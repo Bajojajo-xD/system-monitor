@@ -9,6 +9,6 @@
 ---------------------------
 # Known bugs:
 
-- Sometimes on app exit errors occur,  
+- Sometimes on app exit errors occur
 
 *Report bugs on https://github.com/Bajojajo-xD/system-monitor/issues!*
