@@ -8,8 +8,7 @@
 
 - **🔵 Windows:** Download newest release "system-monitor*.exe" file from releases tab and install,
 - **🔵 Windows portable:** Download newest release "system-monitor*.zip" file from releases tab, open it, find "System monitor DEV.exe" and run.
-- 
----
+
 
 **🟠 Linux**
 
