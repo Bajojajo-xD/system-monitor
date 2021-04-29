@@ -1,7 +1,7 @@
 # 🟠 Read me! 
    ![60x60](https://user-images.githubusercontent.com/81306360/116547403-1eab6380-a8f3-11eb-9b12-ee71a08ecc3c.png) 
 
-# 🟢 Installation:
+# 🟢 Installation
 
 
 **🔵 Windows**
@@ -18,7 +18,7 @@
 
 - ***Warning - only 64-bit systems supported***
 
-# 🟠 Known bugs:
+# 🟠 Known bugs
 
 - Sometimes on app exit errors occur
 
