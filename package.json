@@ -1,0 +1,82 @@
+{
+  "name": "system-monitor",
+  "productName": "System monitor DEV",
+  "version": "0.0.6",
+  "description": "Monitoring cpu and memory",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-builder -p always -w --x64",
+    "lint": "echo \"No linting configured\"",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "system-monitor",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "src/img/icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "src/img/icon.ico",
+      "uninstallerIcon": "src/img/icon.ico",
+      "uninstallDisplayName": "System Monitor DEV",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bajojajo-xD/system-monitor"
+  },
+  "keywords": [],
+  "author": "Bajojajo-xD",
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "system-monitor"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "os-utils": "0.0.14"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.51",
+    "@electron-forge/maker-deb": "^6.0.0-beta.51",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.51",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
+    "@electron-forge/maker-zip": "^6.0.0-beta.51",
+    "electron": "^12.0.5",
+    "electron-builder": "^22.10.5"
+  },
+  "engines": {
+    "node": ">=14",
+    "npm": ">=6"
+  }
+}

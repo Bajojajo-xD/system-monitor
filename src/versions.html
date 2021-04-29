@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html style = 'overflow-y:hidden'>
+    <head>
+        <meta charset="utf-8" />
+        <title>App Version</title>
+        <link
+        rel="stylesheet"
+        href="bulma.min.css"
+      />
+    </head>
+    <body class="content">
+
+        <center><b><h3>---APP---</b></h3>
+            
+
+        <div class="box">
+            <img src="img/icon.ico" width="50" height="50"> <br />
+    
+    
+    
+        App Version: <b>0.0.6</b><br /><br />
+        
+
+        <button id="update" class="button is-danger">Update</button>
+        </div>
+    
+        <script>
+            const update = document.getElementById('update');
+            update.onclick = e => {
+        window.open("https://github.com/Bajojajo-xD/system-monitor/releases/")
+         };
+        </script>
+    
+
+        <b><h3>---ENGINES---</b></h3>
+
+        <div class="box">
+            <img src="img/nodejs.png" width="90" height="50"><br />
+            Node.js: <b><span id="node-version"></span></b>
+        </div>
+        <div class="box">
+            <img src="img/chromium.png" width="50" height="50"> <br />
+            Chromium: <b><span id="chrome-version"></span></b>
+        </div>
+        <div class="box">
+            <img src="img/electron.png" width="50" height="50"> <br />
+            Electron: <b><span id="electron-version"></b></span>
+        </div></center>
+    </body>
+</html>

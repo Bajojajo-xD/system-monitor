@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html style = 'overflow-y:hidden'>
+  <head>
+    <meta charset="UTF-8">
+    <title>System Monitor DEV</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <script defer src="render.js"></script>
+  </head>
+  <body class="content">
+    <center>
+      <div class="box">
+        <h5>CPU Usage [%]</h5>
+        <progress class="progress is-danger" value="100" max="100"></progress>
+        <b><h2><span id="cpu"><progress class="is-link"></progress></span></h2></b>
+      </div>
+    <div class="box">
+      <h5>Free RAM [%]</h5>
+      <progress class="progress is-success" value="100" max="100"></progress>
+      <b><h2><span id="mem"><progress class="is-link"></progress></span></h2></b>
+    </div>
+    <div class="box">
+      <h5>Total RAM [GB]</h5>
+      <progress class="progress is-warning" value="100" max="100"></progress>
+      <b><h2><span id="total-mem"><progress class="is-link"></progress></span></h2></b>
+    </div></center><br />
+    <center><button id="Vers" class="button is-primary">Info</button></center>
+    <script>
+    const Vers = document.getElementById('Vers');
+      Vers.onclick = e => {        window.open(__dirname + "/versions.html", 'targetWindow',
+        'width=350, height=820')
+
+      };
+    </script>
+
+
+     <script>
+        const electron = require('electron');
+        const ipcRenderer = electron.ipcRenderer;
+    
+         ipcRenderer.on('cpu',(event,data) => {
+           document.getElementById('cpu').innerHTML = data.toFixed(2);
+        });
+        ipcRenderer.on('mem',(event,data) => {
+          document.getElementById('mem').innerHTML = data.toFixed(2);
+        });
+        ipcRenderer.on('total-mem',(event,data) => {
+          document.getElementById('total-mem').innerHTML = data.toFixed(2);
+          });
+    </script>
+  </body>
+</html>
