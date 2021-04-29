@@ -8,7 +8,7 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "electron-builder -p -wl always",
+    "publish": "electron-builder -p always -w",
     "lint": "echo \"No linting configured\"",
     "build": "electron-builder"
   },
@@ -24,7 +24,7 @@
       "target": [
         "AppImage"
       ],
-      "icon": "src/img/icon.ico"
+      "icon": "src/img/icon.png"
     },
     "nsis": {
       "installerIcon": "src/img/icon.ico",
