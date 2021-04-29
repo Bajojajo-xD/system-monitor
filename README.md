@@ -10,6 +10,8 @@
 - **🧿 Fedora based linux:** Download newest "system-monitor*.rpm" file from releases tab and install,
 - **🟠 Linux portable:** Download newest "system-monitor*.AppImage" file from releases tab, then right click -> properties -> permissions -> check "allow executing file as program". After it run app clicking on file.
 
+***Warning - only 64-bit systems supported***
+
 ---------------------------
 # 🟠 Known bugs:
 
