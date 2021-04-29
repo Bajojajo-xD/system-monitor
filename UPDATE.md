@@ -1,5 +1,5 @@
 # 🟢 Updating
-*https://github.com/Bajojajo-xD/system-monitor/releases*   
+
 
 **🔵 Windows**
 
