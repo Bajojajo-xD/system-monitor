@@ -4,7 +4,7 @@
 --------------------------
 # Installation:
 
-Download ".exe" and install :)
+**Download ".exe" and install :)**
 
 ---------------------------
 # Known bugs:
