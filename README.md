@@ -1,5 +1,6 @@
 # 🟠 Read me! 
-![icon](https://user-images.githubusercontent.com/81306360/116520234-bcdb0180-a8d2-11eb-80d1-f171fc34bd8c.png)
+![60x60](https://user-images.githubusercontent.com/81306360/116547403-1eab6380-a8f3-11eb-9b12-ee71a08ecc3c.png)
+
 
 --------------------------
 # 🟢 Installation:
