@@ -3,7 +3,7 @@
 
 --------------------------
 # 🟢 Installation:
-*https://github.com/Bajojajo-xD/system-monitor/releases*
+*https://github.com/Bajojajo-xD/system-monitor/releases*   
 **🔵 Windows**
 
 - **🔵 Windows:** Download newest release "system-monitor*.exe" file from releases tab and install,
