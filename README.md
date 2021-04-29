@@ -1,4 +1,4 @@
-# system-monitor
+# System Monitor
 System monitoring tool
 --------------------
 To install:
