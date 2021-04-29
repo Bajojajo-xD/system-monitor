@@ -3,7 +3,7 @@
 
 **🔵 Windows**
 
-- **🔵 Windows:** Download newest release "system-monitor*.exe" file from [a link](https://github.com/Bajojajo-xD/system-monitor/releases)releases tab, double click, follow on-screen instructions,
+- **🔵 Windows:** Download newest release "system-monitor*.exe" file from [releases tab](https://github.com/Bajojajo-xD/system-monitor/releases), double click, follow on-screen instructions,
 - **🔵 Windows portable:** Download newest release "system-monitor*.zip" file from releases tab,Delete old "system-monitor*.zip" file,  open , find "System monitor DEV.exe and run.
 
 **🟠 Linux**
