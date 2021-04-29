@@ -8,7 +8,7 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "electron-builder -p always -w --x64",
+    "publish": "electron-builder -p -wl always",
     "lint": "echo \"No linting configured\"",
     "build": "electron-builder"
   },
@@ -17,6 +17,12 @@
     "win": {
       "target": [
         "nsis"
+      ],
+      "icon": "src/img/icon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
       ],
       "icon": "src/img/icon.ico"
     },
@@ -33,7 +39,7 @@
     "url": "https://github.com/Bajojajo-xD/system-monitor"
   },
   "keywords": [],
-  "author": "Bajojajo-xD",
+  "author": "Bajojajo-xD <github.com@Bajojajo-xD>",
   "license": "MIT",
   "config": {
     "forge": {
