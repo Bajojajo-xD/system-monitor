@@ -10,3 +10,4 @@ Download ".exe" and install :)
 # Known bugs:
 
 Sometimes on app exit errors occur
+Report bugs on 
