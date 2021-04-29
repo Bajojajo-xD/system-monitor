@@ -1,7 +1,7 @@
 {
   "name": "system-monitor",
   "productName": "System monitor DEV",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Monitoring cpu and memory",
   "main": "src/index.js",
   "scripts": {
@@ -22,9 +22,10 @@
     },
     "linux": {
       "target": [
-        "AppImage"
-      ],
-      "icon": "src/img/icon.png"
+        "AppImage",
+        "deb",
+        "rpm"
+      ]
     },
     "nsis": {
       "installerIcon": "src/img/icon.ico",
