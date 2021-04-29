@@ -4,3 +4,8 @@
 # Installation:
 
 Download ".exe" and install :)
+
+---------------------------
+# Known bugs:
+
+Sometimes on app exit errors occur
