@@ -4,7 +4,10 @@
 --------------------------
 # Installation:
 
-**Download newest release ".exe" file from https://github.com/Bajojajo-xD/system-monitor/releases and install 😎**
+
+
+**Windows:** Download newest release ".exe" file from releases tab and install 😎,
+**Linux:** Download newest ".AppImage" file from releases tab, then
 
 ---------------------------
 # Known bugs:
