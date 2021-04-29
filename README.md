@@ -22,4 +22,4 @@
 
 - Sometimes on app exit errors occur
 
-*Report bugs on https://github.com/Bajojajo-xD/system-monitor/issues!*
+*Report bugs [here](https://github.com/Bajojajo-xD/system-monitor/issues)!*
